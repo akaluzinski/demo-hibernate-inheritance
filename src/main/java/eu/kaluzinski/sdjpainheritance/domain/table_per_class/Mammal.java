@@ -12,7 +12,7 @@ import jakarta.persistence.InheritanceType;
 public abstract class Mammal {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.TABLE)
     private Long id;
 
     private Integer bodyTemp;
